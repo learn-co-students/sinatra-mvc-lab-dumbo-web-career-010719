@@ -4,10 +4,6 @@ class App < Sinatra::Base
 
 	get '/' do
 		
-		erb :index
-	end
-
-	get '/user_input' do
 		erb :user_input
 	end
 
